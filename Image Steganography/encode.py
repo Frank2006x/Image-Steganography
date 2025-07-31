@@ -1,7 +1,7 @@
 import numpy as np;
 from PIL import Image
 
-message="hari bhai"
+message="Enter you sample msg here"
 
 bMsg=''.join(["{:08b}".format(ord(x)) for x in message])
 bMsg=[int(x) for x in bMsg]
